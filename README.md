@@ -39,7 +39,7 @@ https://github.com/CamilleDelgrange
 
 
 # Example of non-linear methods and associated presentation of results:
-> xgboost: Illustration of a non-linear method, boosting, and example of results:
+> xgboost: Illustration of the code for non-linear method, boosting and example of MSE obtained:
 >  ![pastedImage.png](pastedImage.png)
 
 # R version:

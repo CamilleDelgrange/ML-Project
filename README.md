@@ -17,7 +17,7 @@
 > 
 
 # R version:
- ![Capture.png](Capture.png) 
+ ![ML-Project/Capture.png](ML-Project/Capture.png) 
 
 # Licence 
 MIT licence

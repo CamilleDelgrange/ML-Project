@@ -11,18 +11,18 @@ https://github.com/CamilleDelgrange
 
 # Precision:
 > if the as.numeric() function doesn't work, please use the following code in the test set: (normally on jupyter lab, it is working)
-> testset$Intensity<-gsub("low",2, testset$Intensity) 
-> testset$Intensity<-gsub("high",1, testset$Intensity)
-> testset$Intensity <- as.numeric(testset$Intensity)
-> OR in the training set:
-> data.predictors$Intensity<-gsub("low",2, testset$Intensity) 
-> data.predictors$Intensity<-gsub("high",1, testset$Intensity)
-> data.predictors$Intensity <- as.numeric(data.predictors$Intensity)
+> testset$Intensity<-gsub("low",2, testset$Intensity) <br/>
+> testset$Intensity<-gsub("high",1, testset$Intensity) <br/>
+> testset$Intensity <- as.numeric(testset$Intensity) <br/>
+> OR in the training set: <br/>
+> data.predictors$Intensity<-gsub("low",2, testset$Intensity) <br/>
+> data.predictors$Intensity<-gsub("high",1, testset$Intensity) <br/>
+> data.predictors$Intensity <- as.numeric(data.predictors$Intensity) <br/>
 
 
 # How to reproduce the code ?
-> You can find 2 files for the project, one "Project_Linear_Method.ipynb" where we put exploration of the data and the linear methods and a "Project_Non_Linear_Method.ipynb" containing the part with non-linear methods. You can execute them separately and get full reproducibility thanks to seed fixed. 
-> You will need some librairies like : 
+> You can find 2 files for the project, one "Project_Linear_Method.ipynb" where we put exploration of the data and the linear methods and a "Project_Non_Linear_Method.ipynb" containing the part with non-linear methods. You can execute them separately and get full reproducibility thanks to seed fixed. <br/>
+> You will need some librairies like : <br/>
 > Metrics, keras, caret, xgboost, tidymodels, leaps, randomForest, 
 
 # Variables:

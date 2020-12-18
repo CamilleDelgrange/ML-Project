@@ -17,7 +17,7 @@
 > 
 
 # R version:
- ![Screenshot](capture.png) 
+ ![Capture.png](Capture.png) 
 
 # Licence 
 MIT licence
